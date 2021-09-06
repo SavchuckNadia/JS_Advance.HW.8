@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0px 140px 0px 140px;
+}
+
+.btnSearch {
+    width: 576px;
+}
+
+.btnSearch,
+.more-details {
+    background-color: #33b238;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 18px;
+}
+
+.btnSearch:hover,
+.more-details:hover {
+    background-color: #249328;
+}
+
+.btnSearch:focus,
+.more-details:focus {
+    box-shadow: 0 0 0 4px rgba(19, 183, 19, 0.517);
+}
+
+input[type="text"],
+.btnSearch {
+    width: 570px;
+    height: 40px;
+}
+
+.more-details {
+    width: 100%;
+    height: 40px;
+}
+
+.f-search {
+    margin: 103px 0 18px 0;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear {
+    position: absolute;
+    top: 113px;
+    left: 682px;
+    width: 20px;
+    display: none;
+}
+
+.card-title,
+#title {
+    background-color: #dbdbd3;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* font-size: 16px; */
+}
+
+.card-information {
+    text-align: center;
+}
+
+.card {
+    padding: 0;
+    width: 258px;
+    margin-bottom: 18px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.card-img-top {
+    box-shadow: 0 0 10px black;
+    height: 400px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    opacity: 0;
+    transition: all 0.7s;
+    width: 1195px;
+    margin-left: -41px;
+}
+
+
+.modal-body {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.about-film {
+    border-radius: 4px;
+    padding: 12px;
+    border: 1px solid lightgrey;
+}
+
+.block-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#film-image {
+    width: 353px;
+    height: 562px;
+}
+
+#title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+.information {
+    width: 700px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ratings {
+    margin-bottom: 0px;
+
+}
+
+li {
+    margin-left: -30px;
+}
+
+#Rated-year-genre {
+    font-size: 13px;
+    color: gray;
+}

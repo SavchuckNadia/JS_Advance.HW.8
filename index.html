@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<style>
+    .card, .card-information{
+        border: 1px solid rgb(227, 227, 227);
+    }
+    .modal-body{
+       padding: 16px 16px 16px 25px;
+    }
+    .modal-dialog{
+       margin-top: 115px;
+    }  
+</style>
+<body>
+    <div class="wrapper">
+        <div class="search">
+            <form class="f-search" name="search">
+                <input type="text"  class="form-control search-film" placeholder="Write movie name" name ="film">
+                <img src="./images/cross.png" class="clear" alt="">
+                <button type="button" class=" btnSearch">search</button>
+            </form>
+            <div class="content"></div>  
+        </div>
+        <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+   
+</body>
+</html>
